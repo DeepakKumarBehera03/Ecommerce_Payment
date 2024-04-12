@@ -3,7 +3,7 @@ from flask import Flask, render_template, request
 
 app = Flask(__name__)
 
-stripe.api_key = 'sk_test_51P4iRnSD0Kz0RQVbyDuSbbmHA2U6EKIFOZrdivugwjMwTrCA8jjom1L0023Vd9nFC4HGZvxC08NxzkeqQju5Eot600jXaPxJLT'
+stripe.api_key = 'Your Api keys'
 
 
 @app.route('/')
