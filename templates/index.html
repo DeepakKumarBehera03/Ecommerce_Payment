@@ -1,10 +1,20 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <title>Flask eCommerce</title>
 </head>
 <body>
-$END$
+    <h1>Welcome to My Website</h1>
+    <form action="/checkout" method="post">
+        <script src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+                data-key="your_publishable_key"
+                data-amount="1000"
+                data-name="Payment"
+                data-description="Your total charge"
+                data-image="https://stripe.com/img/documentation/checkout/marketplace.png"
+                data-locale="auto"
+                data-currency="INR">
+        </script>
+    </form>
 </body>
 </html>
